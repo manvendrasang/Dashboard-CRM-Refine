@@ -105,8 +105,8 @@ export const authProvider: AuthProvider = {
         method: "post",
         headers: accessToken
           ? {
-              Authorization: `Bearer ${accessToken}`,
-            }
+            Authorization: `Bearer ${accessToken}`,
+          }
           : {},
         meta: {
           rawQuery: `
